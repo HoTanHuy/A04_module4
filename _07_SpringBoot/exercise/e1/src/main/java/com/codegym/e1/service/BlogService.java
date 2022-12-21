@@ -5,7 +5,7 @@ import com.codegym.e1.model.User;
 
 import java.util.List;
 
-public interface eBlogService {
+public interface BlogService {
     List<Blog> findAll();
     List<Blog> findById(User user);
 
